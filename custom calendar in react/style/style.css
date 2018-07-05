@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-header {
+    background-color: #2e8b57;
+    width: 100%;
+    padding: 13px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.calendar {
+    border: 1px solid black;
+    width: 40%;
+    margin: 100px auto 20px;
+    padding: 10px 30px;
+}
+
+img.calendar-icon {
+    width: 10%;
+    cursor: pointer;
+    display: inline-block;
+}
+
+table.date-table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table.date-table, table.date-table th,table.date-table td {
+    border: 1px solid black;
+}
+
+table.date-table th,table.date-table td {
+    padding: 7px 10px;
+}
+
+table.date-table td{
+    cursor: pointer;
+}
+
+table.date-table td:hover, table.date-table td:visited {
+    background-color: #87ceeb80;
+}
+
+span.selected.Date {
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+}
+
+select.year-list , select.month-list{
+   margin: 0 10px 10px 0;
+}
+
+
+.month-year-container {
+    text-align: center;
+}
+
+.non-active-dates{
+    color: #708090;
+    pointer-events: none;
+}
